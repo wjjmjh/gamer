@@ -1,0 +1,9 @@
+name: gamer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.11
+  - pip:
+    - --editable .
