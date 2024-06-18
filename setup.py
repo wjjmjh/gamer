@@ -6,6 +6,6 @@ setup(
     name="gamer",
     packages=find_packages(),
     package_dir={"": PACKAGE_DIR},
-    install_requires=[],
+    install_requires=["numpy"],
     extras_require={"dev": ["pytest", "tox", "black", "isort"]},
 )
